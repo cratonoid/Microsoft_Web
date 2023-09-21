@@ -38,7 +38,17 @@ const projectList = [
   },
   {
     title: "Wedding Planner",
-description: "Help couple to plan a wedding without any mediator for booking any other vendor or service.", url: "https://github.com/microsoft/web-dev-for-beginners", }, { title: "Suicide Prediction", description: "Prediction if a student has high potential of commiting suicide based on his chats of past 5 days and speech analysis.", url: "https://github.com/cratonoid/Suicide_Detection_Project_Using_ML_with_OneAPI", },];
+    description:
+      "Help couple to plan a wedding without any mediator for booking any other vendor or service.",
+    url: "https://github.com/microsoft/web-dev-for-beginners",
+  },
+  {
+    title: "Suicide Prediction",
+    description:
+      "Prediction if a student has high potential of commiting suicide based on his chats of past 5 days and speech analysis.",
+    url: "https://github.com/cratonoid/Suicide_Detection_Project_Using_ML_with_OneAPI",
+  },
+];
 
 const Portfolio = () => {
   return (
