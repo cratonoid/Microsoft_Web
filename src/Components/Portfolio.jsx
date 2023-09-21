@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/three.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "woman working on laptop";
 
 /**
  * Project list
@@ -31,30 +31,14 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Effecient Elevator 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Project to help efficient usage of elevator for a target floor given the no. of people in front of each elevator.",
+    url: "https://github.com/cratonoid/Elevator_Project",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
-];
+    title: "Wedding Planner",
+description: "Help couple to plan a wedding without any mediator for booking any other vendor or service.", url: "https://github.com/microsoft/web-dev-for-beginners", }, { title: "Suicide Prediction", description: "Prediction if a student has high potential of commiting suicide based on his chats of past 5 days and speech analysis.", url: "https://github.com/cratonoid/Suicide_Detection_Project_Using_ML_with_OneAPI", },];
 
 const Portfolio = () => {
   return (
